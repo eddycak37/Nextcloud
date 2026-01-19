@@ -66,4 +66,4 @@ At this point, thinking it was a problem with the enclosure used, I just uninsta
 
 So instead of having +1TB of storage, I could only allocate 100-120GB for the VM because my local-lvm only has 148.77GB available if I don't count the Nextcloud VM. So 100-120GB would be enough for more files and apps in Nextcloud, but that will put a limitation on how many containers or VMs I could install on my server. For now, it does the job as I only have 50GB worth of files, but later on, I will have to find a new solution. I am scared that I might have to go from zero: upgrade the disk on my ThinkPad and reinstall my Proxmox server on the new disk. So basically reinstalling Adguard Home, Tailscale and Nextcloud.
 
-In work
+*Still in work*
