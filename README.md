@@ -123,7 +123,12 @@ When you click on your profile, in the **Apps** section, you can find plenty of 
 - PDF Viewer: Just like the name implied. I added it to make sure I can view my PDF files
   
 - Passwords: A password manager for Nextcloud to store my password in my own cloud. I use it in tandem with Bitwarden, which I recommend. I used 1Password in the past but changed to Bitwarden . To be honest, both are great manager, even I don't remember why I switched. There's also an extension browser available and applications for bot IOS and Android phones.
-  
+
 ## Conclusion
 
 So that's it for my installation and configuration of my own cloud with Nextcloud. To be honest, it's a lifesaver because of the fact that I don't have to pay for a subscription to have more storage from Dropbox or other cloud services applications. Also, with all the apps and integrations you can put, it's really worth adding in your server. 
+
+Here's the Dashboard of my Nextcloud server
+
+![Homelab Eddy](nextcloud_dashboard.PNG)
+
