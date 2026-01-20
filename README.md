@@ -34,14 +34,14 @@ The default settings will configure the hardware needs for a ready-to-use. Prett
 
 In your Shell, that's the step of the installation where you'll install Turnkey Linux, a Debian/GNU Linux based library that give you a ready-to-run Nextcloud foundation. In the Shell, you will have options for partinoning. I recommend to go with the *Guided - use entire disk and set up LVM*. Why? Because I saw a tutorial doing it and it went smooth. 
 
-After clicking on Enter, they will ask you on which disk to install it. Why is there two disks you migh ask? That's because of the line command. In the installation of your VM, it will create to harddisk inside your VM. One is for the tunrkey-root (sda) which is the database of your nextcloud and the other one, I believe is the Nextcloud installation media (sdb). So make sure to select sda. Next page, click yes.
+After clicking on Enter, they will ask you on which disk to install it. Why is there two disks you migh ask? That's because of the line command. In the installation of your VM, it will create to harddisk inside your VM. One is for the tunrkey-root *sda* which is the database of your nextcloud and the other one, I believe is the Nextcloud installation media *sdb*. So make sure to select sda. Next page, click yes.
 
 > [!TIP]
 > Like I always say, read everything to understand what you're doing. It is better to understand the process instead of just following the steps blindly.
 
 Next page is if you wish to use the whole volume groupe for partitioning. Depending on if you wish to add more disk later, you can leave it at 90%. However, if you don't plan on adding more disk, you can set it to *max*. Before going further, keep in mind that the default settings only gives 12GB of storage. So I suggest you to not put it to *max* in case you need to make some changes. 
 
-Next page, click *yes* to write changes to disks. Wait for the installation and click *yes* to install the GRUB boot loader. Otherwise, the disk used for Nextcloud won't boot. After the processus, it will prompt you to Reboot. Do it and when you get to the black screen with Turnkey on top, Stop your VM. Go to hardware and detach then remove your second hard disk (828M) so your VM can boot with the one you just installed Nextcloud on (sda). 
+Next page, click *yes* to write changes to disks. Wait for the installation and click *yes* to install the GRUB boot loader. Otherwise, the disk used for Nextcloud won't boot. After the processus, it will prompt you to Reboot. Do it and when you get to the black screen with Turnkey on top, Stop your VM. Go to hardware and detach then remove your second hard disk *828M* so your VM can boot with the one you just installed Nextcloud on *sda*. 
 
 When that's done, restart your VM with the Console. Wait for it to load. You will then get into the configuration of your login information. Follow the steps and make sure to write down your login informations in case you forget.
 
