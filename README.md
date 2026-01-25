@@ -6,7 +6,7 @@
 
 I present you Nextcloud. An open-source cloud storage software. It use the same Dropbox system, but your file is in your cloud instead of an external server. 
 
-My main goal was to share my files accross all my devices and everywhere. To give an example, I often scan documents with my cellphone but I hate to have to either send it to my own mail or put it in a USB stick and then plug it into my computer. With Nextcloud, I can just send it to my cloud and take it whenever I want from any devices. But what's funny is I will still use an USB stick for security purpose and backup. You see, I always wear one as a necklace, but I have to be careful because in the past, I got two USB sticks stolen with lot of personal files on them. One at work and one at the gym. Clumsy Eddy is. Anyway, I will explain to you how I installed it and the configuration needed to get it running smoothly.
+My main goal was to share my files accross all my devices and everywhere. To give an example, I often scan documents with my cellphone but I hate to have to either send it to my own mail or put it in a USB stick and then plug it into my computer. With Nextcloud, I can just send it to my cloud and take it whenever I want from any devices. But what's funny is I will still use an USB stick for security purpose and backup. You see, I always wear one as a necklace, but I have to be careful because in the past, I got two USB sticks stolen with lot of personal files on them. One at work (CISSSMO - GAR DSIEU) and one at the gym (ÉnergieCardio Valleyfield). Clumsy Eddy is. Anyway, I will explain to you how I installed it and the configuration needed to get it running smoothly.
 
 ## Table of contents
 - Installation
